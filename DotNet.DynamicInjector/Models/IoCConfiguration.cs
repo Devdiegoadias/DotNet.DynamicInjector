@@ -28,7 +28,7 @@ namespace DotNet.DynamicInjector.Models
 
         public void AddAllowedInterfaceNamespace(string allowedInterfaceNamespace) =>
             AllowedInterfaceNamespaces.Add(allowedInterfaceNamespace);
-        
+       
         public void AddAllowedInterfaceNamespaces(List<string> allowedInterfaceNamespaces) =>
             AllowedInterfaceNamespaces.AddRange(allowedInterfaceNamespaces);
 
